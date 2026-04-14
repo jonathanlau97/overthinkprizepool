@@ -6,7 +6,7 @@ from io import StringIO
 # ============================================
 # CONFIGURATION - UPDATE THESE URLs
 # ============================================
-CSV_URL = 'https://raw.githubusercontent.com/jonathanlau97/caudalieprizepool/main/overthink_sales_final.csv'
+CSV_URL = 'https://raw.githubusercontent.com/jonathanlau97/overthinkprizepool/main/overthink_sales_final.csv'
 
 # Background images from GitHub
 # Replace these with your actual raw GitHub image URLs
