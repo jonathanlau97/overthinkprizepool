@@ -239,7 +239,7 @@ def load_csv_from_github(url):
 
 
 # --- Process Data ---
-def process__data(df):
+def process_sales_data(df):
     aggregated = df.groupby(['Airline_Code', 'Crew_ID', 'Crew_Name']).agg(
         {'crew_sold_quantity': 'sum'}
     ).reset_index()
