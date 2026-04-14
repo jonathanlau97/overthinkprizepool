@@ -239,7 +239,7 @@ def load_csv_from_github(url):
 
 
 # --- Process Data ---
-def process_sales_data(df):
+def process__data(df):
     aggregated = df.groupby(['Airline_Code', 'Crew_ID', 'Crew_Name']).agg(
         {'crew_sold_quantity': 'sum'}
     ).reset_index()
@@ -258,7 +258,7 @@ def main():
     st.markdown("""
     <div style='text-align: center; padding: 1.5rem 0 0.5rem 0;'>
         <h1 style='font-size: 2.75rem; font-weight: 700; margin: 0;'>
-            Caudalie&nbsp;: Crew Sales Performance
+            Overthink&nbsp;: Crew Sales Performance
         </h1>
     </div>
     """, unsafe_allow_html=True)
